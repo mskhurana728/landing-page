@@ -5,15 +5,14 @@
     height:400px ;
     color: white;
 }
-.link1{
-    margin-left: 91px;
+.logo{
+    border-radius: 100px;
 }
+
 .link2{
     margin-left: auto;
 }
-.link4{
-    margin-right: 136px;
-}
+
 .navbar ul{
     display: flex;
     text-decoration: none;
@@ -40,10 +39,11 @@
 .headerBody1{
     display: flex;
     flex-direction: column;
-    width: 300px;
+    max-width: 500px;
     
 }
 .headerBody1 .heading{
+    
     font-size: 48px;
     font-weight: bolder;
     margin-bottom: 0px;
@@ -51,6 +51,7 @@
 
 }
 .headerImage{
+    max-width: 500px;
     margin-top: 48px;
 }
 .headerText{
@@ -62,11 +63,43 @@
     height: 30px;
     width: 100px;
     border-radius: 10px;
-    background-color: blue;
+    background-color: #3882f6;
     color: #e5e7eb;
     font-size: 18px;
     font-weight: bold;
     border: 0px;
 
+
+}
+
+.body1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.body1Heading{
+    font-size: 36px;
+    font-weight: bolder;
+}
+
+.body1Images{
+    display: flex;
+    text-align: center;
+    gap: 24px;
+  
+
+}
+.body1Image1, .body1Image2, .body1Image3,.body1Image4{
+    
+    max-width: 150px;
+}
+.body1Images img{
+    border-radius: 24px;
+
+}
+
+.body1Images p{
+    margin-top: 0px;
 
 }
