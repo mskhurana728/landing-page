@@ -125,3 +125,37 @@
     max-width: 1000px;
 }
 
+.body3{
+    height: 300px;
+    /* background-color:; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.body3Box{
+    background-color: #3882f6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+    color: #e5e7eb;
+    border-radius: 20px;
+    width: 800px;
+    
+}
+
+.body3Button{
+    height: 30px;
+    width: 100px;
+    border-radius: 10px;
+    background-color: #3882f6;
+    color: #e5e7eb;
+    font-size: 18px;
+    font-weight: bold;
+    border: 2px solid white;
+   
+    
+
+
+}
