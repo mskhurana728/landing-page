@@ -1,3 +1,7 @@
+.body{
+    display: flex;
+    flex-direction: column;
+}
 .header{
     display: flex;
     flex-direction: column;
@@ -8,9 +12,15 @@
 .logo{
     border-radius: 100px;
 }
+.link1{
+    margin-left: 350px;
+}
 
 .link2{
     margin-left: auto;
+}
+.link4{
+margin-right: 400px ;
 }
 
 .navbar ul{
@@ -158,4 +168,11 @@
     
 
 
+}
+.footer{
+    background-color: #1f2937;
+    color: #e5e7eb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
